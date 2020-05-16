@@ -1,6 +1,6 @@
 node('redhat'){
     stage('scm'){
-        git 'https://github.com/wakaleo/game-of-life.git'
+        git 'https://github.com/npjswl/game-of-life.git'
     }
 
     stage('build'){
