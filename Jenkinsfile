@@ -1,4 +1,4 @@
-node('REDHAT'){
+node('redhat'){
     stage('scm'){
         git 'https://github.com/wakaleo/game-of-life.git'
     }
